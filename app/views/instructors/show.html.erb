@@ -1,0 +1,32 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @instructor.name %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @instructor.age %>
+</p>
+
+<h3>Teaching Courses:</h3>
+<ul>
+<% @instructor.courses.each do |course| %>
+  <li><%= link_to course.name, course %></li>
+<% end %>
+</ul>
+
+<h3>Shared Students:</h3>
+<% @instructor.common_students.each do |other_instructor, students| %>
+  <h4><%= other_instructor.name %></h4>
+  <ul>
+  <% students.each do |course| %>
+    <li><%= link_to course.name, course %></li>
+  <% end %>
+  </ul>
+<% end %>
+
+
+<%= link_to 'Edit', edit_instructor_path(@instructor) %> |
+<%= link_to 'Back', instructors_path %>
