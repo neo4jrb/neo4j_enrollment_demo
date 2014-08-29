@@ -3762,3 +3762,32 @@ Storage files: (filename : modification date - size)
 2014-08-27 09:32:36.696+0000 INFO  [o.n.s.CommunityNeoServer]: Server started on: http://localhost:7000/
 2014-08-27 09:32:36.697+0000 INFO  [o.n.s.CommunityNeoServer]: Remote interface ready and available at [http://localhost:7000/]
 2014-08-27 09:32:36.697+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- SERVER STARTED END ---
+2014-08-27 10:43:30.095+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 2459027ms [total block time: 2459.027s]
+2014-08-27 11:03:16.593+0000 INFO  [o.n.s.CommunityBootstrapper]: Neo4j Server shutdown initiated by request
+2014-08-27 11:03:16.619+0000 INFO  [o.n.s.CommunityNeoServer]: Successfully shutdown Neo4j Server.
+2014-08-27 11:03:16.619+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Shutdown started
+2014-08-27 11:03:16.620+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Database is now unavailable
+2014-08-27 11:03:16.620+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor stopped. 
+2014-08-27 11:03:16.622+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Closed log /Users/brian/github/cheerfulstoic/neo4j_enrollment_demo/db/neo4j/development/data/graph.db/index/lucene.log
+2014-08-27 11:03:16.623+0000 INFO  [o.n.k.i.t.TxManager]: TM shutting down
+2014-08-27 11:03:16.625+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Closed log /Users/brian/github/cheerfulstoic/neo4j_enrollment_demo/db/neo4j/development/data/graph.db/nioneo_logical.log
+2014-08-27 11:03:16.630+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/brian/github/cheerfulstoic/neo4j_enrollment_demo/db/neo4j/development/data/graph.db/neostore.relationshiptypestore.db.names hit=0 miss=26 switches=0 ooe=0
+2014-08-27 11:03:16.632+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/brian/github/cheerfulstoic/neo4j_enrollment_demo/db/neo4j/development/data/graph.db/neostore.relationshiptypestore.db hit=0 miss=13 switches=0 ooe=0
+2014-08-27 11:03:16.632+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/brian/github/cheerfulstoic/neo4j_enrollment_demo/db/neo4j/development/data/graph.db/neostore.labeltokenstore.db.names hit=0 miss=54 switches=0 ooe=0
+2014-08-27 11:03:16.633+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/brian/github/cheerfulstoic/neo4j_enrollment_demo/db/neo4j/development/data/graph.db/neostore.labeltokenstore.db hit=0 miss=27 switches=0 ooe=0
+2014-08-27 11:03:16.634+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/brian/github/cheerfulstoic/neo4j_enrollment_demo/db/neo4j/development/data/graph.db/neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2014-08-27 11:03:16.634+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/brian/github/cheerfulstoic/neo4j_enrollment_demo/db/neo4j/development/data/graph.db/neostore.propertystore.db.index.keys hit=0 miss=48 switches=0 ooe=0
+2014-08-27 11:03:16.635+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/brian/github/cheerfulstoic/neo4j_enrollment_demo/db/neo4j/development/data/graph.db/neostore.propertystore.db.index hit=0 miss=24 switches=0 ooe=0
+2014-08-27 11:03:16.635+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/brian/github/cheerfulstoic/neo4j_enrollment_demo/db/neo4j/development/data/graph.db/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2014-08-27 11:03:16.636+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/brian/github/cheerfulstoic/neo4j_enrollment_demo/db/neo4j/development/data/graph.db/neostore.propertystore.db hit=0 miss=84 switches=0 ooe=0
+2014-08-27 11:03:16.641+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/brian/github/cheerfulstoic/neo4j_enrollment_demo/db/neo4j/development/data/graph.db/neostore.relationshipstore.db hit=0 miss=198 switches=0 ooe=0
+2014-08-27 11:03:16.642+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/brian/github/cheerfulstoic/neo4j_enrollment_demo/db/neo4j/development/data/graph.db/neostore.nodestore.db.labels hit=0 miss=0 switches=0 ooe=0
+2014-08-27 11:03:16.642+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/brian/github/cheerfulstoic/neo4j_enrollment_demo/db/neo4j/development/data/graph.db/neostore.nodestore.db hit=0 miss=24950 switches=0 ooe=0
+2014-08-27 11:03:16.643+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/brian/github/cheerfulstoic/neo4j_enrollment_demo/db/neo4j/development/data/graph.db/neostore.schemastore.db hit=0 miss=24 switches=0 ooe=0
+2014-08-27 11:03:16.643+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/brian/github/cheerfulstoic/neo4j_enrollment_demo/db/neo4j/development/data/graph.db/neostore.relationshipgroupstore.db hit=0 miss=0 switches=0 ooe=0
+2014-08-27 11:03:16.646+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/brian/github/cheerfulstoic/neo4j_enrollment_demo/db/neo4j/development/data/graph.db/neostore hit=0 miss=14 switches=0 ooe=0
+2014-08-27 11:03:16.646+0000 INFO  [o.n.k.i.n.x.NeoStoreXaDataSource]: NeoStore closed
+2014-08-27 11:03:16.646+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics START ---
+2014-08-27 11:03:16.647+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics END ---
+2014-08-27 11:03:16.647+0000 INFO  [o.n.s.d.LifecycleManagingDatabase]: Successfully stopped database
+2014-08-27 11:03:16.647+0000 INFO  [o.n.s.CommunityNeoServer]: Successfully shutdown database.
